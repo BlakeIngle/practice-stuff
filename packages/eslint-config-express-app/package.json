@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-express-app",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-base": "workspace:*",
+    "eslint-config-turbo": "^1.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
