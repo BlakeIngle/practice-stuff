@@ -36,20 +36,12 @@ pnpm i
 
 > this will install all of the required modules for your apps
 
-5a. Create a new file in the `apps/vite-app` directory named `.env` with the following content:
+5. Create a new file in the `apps/vite-app` directory named `.env` with the following content:
 
 ```
 VITE_PUBLIC_API_ENDPOINT=http://localhost:5001
 
 VITE_PUBLIC_SHOW_QUERY_DEVTOOLS=true
-```
-
-5b. Create a new file in the `apps/next-app` directory named `.env` with the following content:
-
-```
-NEXT_PUBLIC_API_ENDPOINT=http://localhost:5001
-
-NEXT_PUBLIC_SHOW_QUERY_DEVTOOLS=true
 ```
 
 6. Create a new file in the `apps/express-app` directory named `.env` with the following content:
